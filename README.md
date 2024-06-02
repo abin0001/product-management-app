@@ -13,21 +13,6 @@ This React application with Next.js and Tailwind CSS builds a responsive product
 - Tailwind CSS: Utility-first CSS framework
 - Mock API: [https://fakestoreapi.com/products](https://fakestoreapi.com/products) (for demonstration purposes)
 
-**Project Structure:**
-
-```
-my-product-listing-app/
-├── pages/
-│   ├── _app.js  (Global layout and Tailwind CSS configuration)
-│   ├── index.js  (Main product listing page)
-│   └── components/
-│       ├── Products.js  (Manages product data fetching and display)
-│       ├── SearchBar.js  (Handles search functionality)
-│       └── ProductDetailsModal.js  (Displays product details in a modal)
-├── styles/
-│   ├── globals.css  (Optional global styles)
-└── public/  (Static assets like images)
-```
 
 **Installation:**
 
@@ -35,7 +20,7 @@ my-product-listing-app/
 2. Install required dependencies:
 
    ```bash
-   cd my-product-listing-app
+   cd product-mamagement-app
    npm install
    ```
 
